@@ -1,0 +1,31 @@
+@media only screen and (max-width: 630px) {
+    main #content {
+        flex-direction: column;
+        animation: fade 0.4s normal ease-out;
+    }
+
+    header:first-child {
+        animation: fade 1s normal;
+    }
+
+    header nav {
+        display: none;
+    }
+
+    header .alt-nav {
+        display: flex;
+    }
+
+    #info {
+        text-align: center;
+    }
+
+    @keyframes fade {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 100;
+        }
+    }
+}
