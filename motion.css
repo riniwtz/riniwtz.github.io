@@ -1,0 +1,39 @@
+/* Default Header */
+
+header {
+    animation: fade 10s normal;
+}
+
+nav a {
+    transition: 0.5s;
+}
+
+/* Mobile Header */
+
+.alt-nav {
+    transition: all .5s ease-in-out;
+}
+
+.alt-nav-line {
+    transition: all .5s ease-in-out;
+}
+
+/* Content */
+
+#content {
+    transition: ease all .5s;
+    animation: fade 0.4s normal ease-out;
+}
+
+#profile-image {
+    transition: 1s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100;
+    }
+}
