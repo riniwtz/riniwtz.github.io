@@ -1,11 +1,7 @@
 /* Default Header */
 
-header {
-    animation: fade 10s normal;
-}
-
 nav a {
-    transition: 0.5s;
+    transition: 0.5s ease-in-out;
 }
 
 /* Mobile Header */
