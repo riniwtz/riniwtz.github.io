@@ -4,6 +4,10 @@
         animation: fade 0.4s normal ease-out;
     }
 
+    #content-info {
+        text-align: center;
+    }
+
     header:first-child {
         animation: fade 1s normal;
     }
@@ -14,10 +18,6 @@
 
     header .alt-nav {
         display: flex;
-    }
-
-    #info {
-        text-align: center;
     }
 
     @keyframes fade {
