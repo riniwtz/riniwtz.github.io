@@ -8,34 +8,37 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="home.css"/>
     <link rel="stylesheet" href="dynamic.css">
-    <link rel="stylesheet" href="motion.css">
     <script src="https://kit.fontawesome.com/4c8a004511.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <main>
         <header>
-            <nav>
+            <nav id="default-nav">
                 <ul>
                     <li><a class="current-nav-page" href="/home">HOME</a></li>
                     <li><a href="/about">ABOUT</a></li>
+                    <li><a href="/portfolio">PORTFOLIO</a></li>
                     <li><a href="/gallery">GALLERY</a></li>
                     <li><a href="/contact">CONTACT</a></li>
                 </ul>
             </nav>
-            <div class="alt-nav">
-                <div class="alt-nav-line"></div>
-                <div class="alt-nav-line"></div>
-                <div class="alt-nav-line"></div>
-                <div class="alt-nav-line"></div>
-            </div>
+            <nav id="mobile-nav">
+                <ul>
+                    <li><a class="current-nav-page" href="/home"><i class="fa-solid fa-house fa-xl"></i></a></li>
+                    <li><a href="/about"><i class="fa-solid fa-address-card fa-xl"></i></a></li>
+                    <li><a href="/portfolio"><i class="fa-solid fa-laptop-code fa-xl"></i>    </a></li>
+                    <li><a href="/gallery"><i class="fa-solid fa-image fa-xl"></i></a></li>
+                    <li><a href="/contact"><i class="fa-solid fa-envelope fa-xl"></i></a></li>
+                </ul>
+            </nav>
         </header>
         <section id="content">
             <div id="profile-image"></div>
             <aside id="content-info">
                 <h1>RINTARO IWATA</h1>
-                <p>Hello! I'm a self-taught Java, Python, iOS, &amp; web developer.</p>
+                <p>Hello! I'm a self-taught Java, Python, &amp; web developer.</p>
             </aside>
         </section>
         <footer>
@@ -44,6 +47,7 @@
                 <a href="https://www.twitter.com/riniwtz" target="_blank"><i class="fa-brands fa-twitter fa-2x fa-fw"></i></a>
                 <a href="https://www.instagram.com/riniwtz" target="_blank"><i class="fa-brands fa-instagram fa-2x fa-fw"></i></a>
                 <a href="https://www.github.com/riniwtz" target="_blank"><i class="fa-brands fa-github fa-2x fa-fw"></i></a>
+                <a href="https://www.linkedin.com/in/rintaro-iwata-720086276/" target="_blank"><i class="fa-brands fa-linkedin fa-2x fa-fw"></i></a>
             </section>
         </footer>
     </main>
