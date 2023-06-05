@@ -1,31 +1,26 @@
-@media only screen and (max-width: 630px) {
+@media only screen and (max-width: 600px) {
+
     main #content {
         flex-direction: column;
-        animation: fade 0.4s normal ease-out;
+    }
+
+    /* Nav */
+
+    #default-nav {
+        display: none;
+    }
+
+    #mobile-nav {
+        display: block;
     }
 
     #content-info {
         text-align: center;
     }
+}
 
-    header:first-child {
-        animation: fade 1s normal;
-    }
-
-    header nav {
-        display: none;
-    }
-
-    header .alt-nav {
-        display: flex;
-    }
-
-    @keyframes fade {
-        0% {
-            opacity: 0;
-        }
-        100% {
-            opacity: 100;
-        }
+@media only screen and (max-width: 385px) {
+    main #content, #mobile-nav, #social-icons {
+        font-size: 3vw;
     }
 }
