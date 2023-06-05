@@ -1,0 +1,50 @@
+/* Default Header */
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5em;
+    position: relative;
+}
+
+/* Global Nav */
+nav ul, li {
+    display: flex;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    text-align: center;
+}
+
+/* Default Nav */
+
+#default-nav {
+    display: block;
+}
+
+#default-nav ul {
+    gap: 1em;
+}
+
+#default-nav a {
+    border: 2px solid transparent;
+    border-radius: 1em;
+    color: var(--global-white);
+    font-weight: bold;
+    font-size: 0.9rem;
+    text-decoration: none;
+    padding: 0.05em 0.5em;
+ 
+    transition: var(--transout)
+}
+
+#default-nav a:hover, #default-nav .current-nav-page {
+    color: var(--page-color);
+    background-color: var(--global-white);
+    transition: var(--transin)
+}

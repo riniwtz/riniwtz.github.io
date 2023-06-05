@@ -1,0 +1,29 @@
+:root {
+    --font: "Poppins", Arial, sans-serif;
+    --profile-image-size: 15em;
+    --page-color: #181818;
+    --global-white: rgb(250, 250, 250);
+
+    --transin: all 0.2s ease;
+    --transout: all 0.3s ease-out;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: inherit;
+    width: 100%;
+    font-family: var(--font);
+    background-color: var(--page-color);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
