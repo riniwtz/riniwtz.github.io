@@ -17,6 +17,14 @@
     #content-info {
         text-align: center;
     }
+    
+    /* Footer */
+    #social-icons > a:hover {
+        background-color: transparent;
+        color: var(--global-white);
+    
+        transition: none;
+    }
 }
 
 @media only screen and (max-width: 385px) {
