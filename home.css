@@ -73,6 +73,7 @@ main {
 
 #content-info p {
     font-size: 0.9em;
+    color: var(--global-light-gray);
 }
 
 #content-info > * {
