@@ -56,7 +56,7 @@
         <span id="accepted-date-info">accepted</span>
         <span>now screenshot this to him ><</span>
         <div>
-            <button id="playmusicbtn" style="position: relative;z-index: 999;margin: auto;" class="buttons" onclick="audio.play();">play sum music</button>
+            <button id="playmusicbtn" style="position: relative;z-index: 999;margin: auto;" class="buttons" onclick="audio.play();hide();">play sum music</button>
         </div>
        
     </div>
@@ -67,6 +67,10 @@
         var audio = new Audio('music/Ikaw At Ako.mp3');
         audio.play();
         audio.volume = 0.2
+
+        function hide() {
+            document.getElementById('playmusicbtn').style.display = "none"
+        }
     </script>
     <script src="js/particle.js"></script>
     <script src="js/firework.js"></script>
