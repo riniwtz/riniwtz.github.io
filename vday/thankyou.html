@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>will you be my valentine?</title>
     <script src="https://momentjs.com/downloads/moment.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.sound.min.js"></script>
     <style>
         @font-face {
             font-family: hugme;
@@ -29,26 +32,8 @@
             height: 100%;
             gap: 2em;
         }
-        #cute-buttons {
-            display: flex;
-            gap: 1em;
-        }
-        .buttons {
-            padding: 1em 3em;
-            transition: 0.2s;
-            border-radius: 2em;
-            border: none;
-        }
-        .buttons:hover {
-            transition: 0.2s;
-        }
-        .yes-button {
-            background-color: rgb(249, 229, 230);
-            border: 2px solid rgb(220, 78, 115);
-        }
-        .yes-button:hover {
-            background-color: rgb(236, 218, 219);
-            border: 2px solid rgb(202, 70, 106);
+        canvas {
+            display: block;
         }
     </style>
 </head>
@@ -64,5 +49,8 @@
         const accepted = document.getElementById('accepted-date-info')
         accepted.textContent = 'accepted - ' + date.format('MMM DD, YYYY hh:mm:ss A')
     </script>
+    <script src="js/particle.js"></script>
+    <script src="js/firework.js"></script>
+    <script src="js/sketch.js"></script>
 </body>
 </html>
