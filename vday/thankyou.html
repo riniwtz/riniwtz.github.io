@@ -22,6 +22,7 @@
         }
         body {
             height: 100vh;
+            font-size: 100%;
         }
         #main-container {
             display: flex;
@@ -37,14 +38,21 @@
             position: absolute;
             top: 0;
         }
+        .buttons {
+            padding: 1em 3em;
+            transition: 0.2s;
+            border-radius: 2em;
+            border: none;
+        }
     </style>
 </head>
 <body>
     <div id="main-container">
-        <h2>thank you for being my valentine my ashi ><</h2>
+        <h2 style="font-size: 1.6em;">thank you for being <br>my valentine my ashi ><</h2>
         <img src="gif/baby.gif" height="200px" alt="">
         <span id="accepted-date-info">accepted</span>
         <span>now screenshot this to him ><</span>
+        <button class="buttons" onclick="audio.play();">play sum music</button>
     </div>
     <script>
         const date = moment()
