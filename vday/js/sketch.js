@@ -8,7 +8,7 @@ const fireworks = [];
 let gravity;
 
 function setup() {
-  createCanvas(1280, 720);
+  createCanvas(1440, 1080);
   gravity = createVector(0, 0.2);
   stroke(255);
   strokeWeight(4);
