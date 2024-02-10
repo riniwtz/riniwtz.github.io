@@ -50,8 +50,9 @@
         const date = moment()
         const accepted = document.getElementById('accepted-date-info')
         accepted.textContent = 'accepted - ' + date.format('MMM DD, YYYY hh:mm:ss A')
-        var audio = new Audio('audio_file.mp3');
+        var audio = new Audio('music/Ikaw At Ako.mp3');
         audio.play();
+        audio.volume = 0.2
     </script>
     <script src="js/particle.js"></script>
     <script src="js/firework.js"></script>
