@@ -44,6 +44,9 @@
             border-radius: 2em;
             border: none;
         }
+        #playmusicbtn:hover {
+            background-color: aliceblue;
+        }
     </style>
 </head>
 <body>
@@ -52,7 +55,10 @@
         <img src="gif/baby.gif" height="200px" alt="">
         <span id="accepted-date-info">accepted</span>
         <span>now screenshot this to him ><</span>
-        <button class="buttons" onclick="audio.play();">play sum music</button>
+        <div>
+            <button id="playmusicbtn" style="position: relative;z-index: 999;margin: auto;" class="buttons" onclick="audio.play();">play sum music</button>
+        </div>
+       
     </div>
     <script>
         const date = moment()
