@@ -42,7 +42,6 @@ main {
 
 #content {
    height: fit-content;
-
    display: flex;
    justify-content: center;
    align-items: center;
@@ -54,7 +53,7 @@ main {
     width: var(--profile-image-size);
     height: var(--profile-image-size);
     border-radius: 1em;
-    background-image: url(img/profile.jpg);
+    background-image: url(img/profile.JPG);
     background-repeat: no-repeat;
     background-size: cover;
 }
