@@ -408,3 +408,11 @@ q25QA.addEventListener('keyup', (e) => {
 q25QB.addEventListener('keyup', (e) => {
     ValueUpdater.updateQ25Value(q25QA, q25QB, q25AA);
 });
+
+function proceedToWW4Page(){
+    window.open('/physics/ww4.html', '_blank');
+}
+
+function proceedToWW6Page(){
+    window.open('/physics/ww6.html', '_blank');
+}
